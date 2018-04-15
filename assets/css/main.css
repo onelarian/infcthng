@@ -1,0 +1,230 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-image: url(icons/back.jpg);
+    background-repeat: no-repeat;
+}
+
+video {
+    display: block;
+    margin: -10px auto;
+    padding: 20px;
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1#header-audio{
+    text-align: center;
+}
+
+header {
+    height: 68px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    z-index: 10;
+}
+
+.header a:link {
+    color: #696969;
+    background: #696969;
+}
+
+/* .dropbtn {
+    background-color: #2629ee;
+    color: white;
+    padding: 16px 10px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #146ab0;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    display: block; 
+}
+
+.dropdown-content a:hover {
+    background-color: #0b5999;
+    color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #105791;
+}
+
+ul{
+    list-style-type: none;
+} */
+/*---------------------------Barra de navegacion---------------------------------*/
+nav{
+    font-size: 21px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav li{
+    line-height: 3rem;
+    position: relative;
+}
+
+.menu ul{
+    position: absolute;
+}
+
+nav a{
+    color: #ddd;
+    display: block;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: #06047E;
+}
+
+/*---------------------------PRIMER NIVEL------------------------------------*/
+.menu{
+    background: #0300CF;
+    display: table;
+    width: 100%;
+}
+
+.menu > li{
+    display: inline-block;
+}
+/*---------------------------SEGUNDO NIVEL------------------------------------*/
+nav li li{
+    background: #160BA7;
+    max-height: 0;
+    overflow: hidden;
+    /* width: 200px; */
+}
+
+nav li:hover > ul > li{
+    max-height: 1000px;
+    overflow: visible;
+}
+
+.menu > li > ul{
+    top: 100%;
+}
+
+/*---------------------------TERCER NIVEL------------------------------------*/
+.menu ul ul{
+    left: 100%;
+    top: 0;
+}
+
+.menu ul .left{
+    left: -100%;
+    top: 0;
+}
+/*---------------------------Barra de navegacion---------------------------------*/
+.hidetoggle {
+    padding-left: 20px;
+}
+
+.metroCont {
+    padding-top: 40px;
+    display: none;
+}
+
+.pianoCont {
+    display: none;
+}
+
+.piano {
+    padding: 1% 1%;
+}
+
+.key {
+    display: inline-block;
+    position: relative;
+    margin: 0 2px;
+    width: 3%;
+    max-width: 18px;
+}
+
+.key:active .black-key,
+.key.active .black-key {
+    top: -5px;
+}
+
+.key .white-key {
+    background: -webkit-linear-gradient(-30deg, #f8f8f8, #ffffff);
+    background: -moz-linear-gradient(-30deg, #f8f8f8, #ffffff);
+    background: -o-linear-gradient(-30deg, #f8f8f8, #ffffff);
+    background: linear-gradient(-30deg, #f8f8f8, #ffffff);
+    box-shadow: inset 0 1px 0px #ffffff, inset 0 -1px 0px #ffffff, inset 1px 0px 0px #ffffff, inset -1px 0px 0px #ffffff, 0 4px 3px rgba(0, 0, 0, 0.7), inset 0 -1px 0px #ffffff, inset 1px 0px 0px #ffffff, inset -1px -1px 15px rgba(0, 0, 0, 0.5), -3px 4px 6px rgba(0, 0, 0, 0.5);
+    display: block;
+    height: 90px;
+
+}
+
+.key .white-key:active,
+.key .white-key.active {
+    box-shadow: inset 0 1px 0px #ffffff, inset 0 -1px 0px #ffffff, inset 1px 0px 0px #ffffff, inset -1px 0px 0px #ffffff, 0 4px 3px rgba(0, 0, 0, 0.7), inset 0 -1px 0px #ffffff, inset 1px 0px 0px #ffffff, inset -1px -1px 15px #000000, -3px 4px 6px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -5px;
+    height: 85px;
+}
+
+.key .black-key {
+    content: "";
+    box-shadow: inset 0px -1px 2px rgba(255, 255, 255, 0.4), 0 2px 3px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(-20deg, #222222, #000000, #222222);
+    border-width: 1px 3px 8px;
+    border-style: solid;
+    border-color: #666 #222 #111 #555;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    width: 60%;
+    right: -80%;
+    z-index: 10;
+}
+
+.key .black-key:active,
+.key .black-key.active {
+    border-bottom-width: 3px;
+    top: 0;
+}

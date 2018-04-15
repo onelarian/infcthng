@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'piano-keyboard';
+    src: url('icons/piano-keyboard.eot?nfc6q9');
+    src: url('icons/piano-keyboard.eot?#iefixnfc6q9') format('embedded-opentype'), url('icons/piano-keyboard.woff?nfc6q9') format('woff'), url('icons/piano-keyboard.ttf?nfc6q9') format('truetype'), url('icons/piano-keyboard.svg?nfc6q9#piano-keyboard') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: #222;
+    background: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: helvetica, arial;
+}
+
+.piano {
+    padding: 1% 1%;
+}
+
+.key {
+    display: inline-block;
+    position: relative;
+    margin: 0 2px;
+    width: 5%;
+    max-width: 18px;
+}
+
+.key:active .black-key,
+.key.active .black-key {
+    top: -5px;
+}
+
+.key .white-key {
+    box-shadow: inset 0 1px 0px #ffffff, inset 0 -1px 0px #ffffff, inset 1px 0px 0px #ffffff, inset -1px 0px 0px #ffffff, 0 4px 3px rgba(0, 0, 0, 0.7), inset 0 -1px 0px #ffffff, inset 1px 0px 0px #ffffff, inset -1px -1px 15px rgba(0, 0, 0, 0.5), -3px 4px 6px rgba(0, 0, 0, 0.5);
+    display: block;
+    height: 90px;
+
+}
+
+.key .white-key:active,
+.key .white-key.active {
+    box-shadow: inset 0 1px 0px #ffffff, inset 0 -1px 0px #ffffff, inset 1px 0px 0px #ffffff, inset -1px 0px 0px #ffffff, 0 4px 3px rgba(0, 0, 0, 0.7), inset 0 -1px 0px #ffffff, inset 1px 0px 0px #ffffff, inset -1px -1px 15px #000000, -3px 4px 6px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -5px;
+    height: 85px;
+}
+
+.key .black-key {
+    box-shadow: inset 0px -1px 2px rgba(255, 255, 255, 0.4), 0 2px 3px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(-20deg, #222222, #000000, #222222);
+    border-width: 1px 3px 2px;
+    border-style: solid;
+    border-color: #666 #222 #111 #555;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    width: 60%;
+    display: block;
+}
+
+.key .black-key:active,
+.key .black-key.active {
+    border-bottom-width: 3px;
+    top: 0;
+}
