@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	
+	
     //00
     $("#videoLeccion_00_1").on("click", function(){
         $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_00/00/01_SS_Escuchar_SOL_00.webm");

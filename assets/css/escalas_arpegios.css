@@ -2,45 +2,6 @@
     padding: 0px;
     margin: 0px
 }
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
 
 body {
     background-image: url(icons/back.jpg);
@@ -49,23 +10,8 @@ body {
 
 video {
     display: block;
-	margin-top:0%;
-	margin-left: 17px;
-}
-.alignvideo{
-	
-display: inline-block;
-border-style: solid;
-width: 65%;
-	
-}
-.alignmenu{
-display: inline-block;
-border-style: solid;
-width: 30%;
-vertical-align:top;
-
-	
+    margin: -10px auto;
+    padding: 20px;
 }
 
 audio {
@@ -185,25 +131,12 @@ nav a:hover{
 .menu > li{
     display: inline-block;
 }
-
-.menul{
-	 background: #0300CF;
-    display: table;
-    width: 100%;
-	
-}
-
-
-.menul > li{
-	
-}
-
 /*---------------------------SEGUNDO NIVEL------------------------------------*/
 nav li li{
     background: #160BA7;
     max-height: 0;
     overflow: hidden;
-    /* width: 200px; */
+    width: 150px;
 }
 
 nav li:hover > ul > li{
@@ -225,16 +158,6 @@ nav li:hover > ul > li{
     left: -100%;
     top: 0;
 }
-
-.menu ul .audioup{
-    /* left: 100%; */
-    top: -250%; 
-}
-
-/* .menu ul .audioupup{
-    left: 100%;
-    top: -350%; 
-} */
 /*---------------------------Barra de navegacion---------------------------------*/
 .hidetoggle {
     padding-left: 20px;
