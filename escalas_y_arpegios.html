@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Proyecto FAMUS</title>
-    <link rel="stylesheet" href="assets/css/escalas_arpegios.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="sortcut icon" href="assets/icon.png">
 </head>
 
@@ -40,11 +40,45 @@
     <br>
     <br>
     <br>
-    <span>
+    <!-- <span>
         <video width="60%" height="60%" controls="controls" id="video" src="assets/media/videos/2017-11-29%2018-06-49.mkv" type="video/webm">
-            <!-- <source type="video/mp4"> -->
+            <source type="video/mp4">
         </video>
-    </span>
+    </span> -->
+    <div class="alignvideo">
+        <div>
+            <span>
+                <video width="95%" height="100%" controls="controls" id="video" src="assets/media/videos/2017-11-29%2018-06-49.mkv" type="video/webm">
+                    <!-- <source type="video/mp4"> -->
+                </video>
+            </span>
+        </div>
+    </div>
+    <div class="alignmenu">
+        <nav align="center">
+            <ul class="menul">
+                <li>
+                    <a href="lecciones.html">Lecciones</a>
+                </li>
+                <li>
+                    <a href="escalas_y_arpegios.html">Escalas y Arpegios</a>
+                </li>
+                <li>
+                    <a href="notas.html">Decir la Nota</a>
+                </li>
+                <li>
+                    <a href="dictados.html">Dictados</a>
+                </li>
+                <li>
+                    <a href="lectura.html">Lectura y Ritmo</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <audio controls>
+            <source id="audio" src="#" type="audio/mpeg"> Your browser does not support the audio element.
+        </audio>
+    </div>
     <span class="hidetoggle">
             <button onclick="hideMetro()"><img height="50px" width="50px" src="assets/css/icons/metro-icon.png"></button>
     </span>

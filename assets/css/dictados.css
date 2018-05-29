@@ -196,7 +196,7 @@ nav li li{
     background: #160BA7;
     max-height: 0;
     overflow: hidden;
-    width: 200px;
+    width: 220px;
 }
 
 nav li:hover > ul > li{
@@ -210,7 +210,7 @@ nav li:hover > ul > li{
 
 /*---------------------------TERCER NIVEL------------------------------------*/
 nav li li li{
-    width: 150px;
+    width: 165px;
 }
 
 .menu ul ul{
