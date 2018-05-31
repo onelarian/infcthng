@@ -46,22 +46,22 @@ $(document).ready(function(){
         $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/");
     });
     $("#videoLeccion_0a_2").on("click", function(){
-        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_01_a_50.webm");
+        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_02_a_50.webm");
     });
     $("#videoLeccion_0a_3").on("click", function(){
-        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_01_a_54.webm");
+        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_02_a_54.webm");
     });
     $("#videoLeccion_0a_4").on("click", function(){
-        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_01_a_58.webm");
+        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_02_a_58.webm");
     });
     $("#videoLeccion_0a_5").on("click", function(){
-        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_01_a_62.webm");
+        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_02_a_62.webm");
     });
     $("#videoLeccion_0a_6").on("click", function(){
-        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_01_a_66.webm");
+        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_02_a_66.webm");
     });
-	    $("#videoLeccion_0a_7").on("click", function(){
-        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_01_a_70.webm");
+    $("#videoLeccion_0a_7").on("click", function(){
+        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/SS_Lectura y Ritmo/01_Lectura Sin Ritmo/01_Clave de SOL/Guias Visual_ Auditivas/Ejercicio_02/SS_Lectura_C_SOL_02_a_70.webm");
     });
 
 	
