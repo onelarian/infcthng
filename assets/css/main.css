@@ -55,13 +55,13 @@ video {
 
 .alignvideo{
     display: inline-block;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 65%;
 	
 }
 .alignmenu{
     display: inline-block;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 30%;
     vertical-align:top;
 }
