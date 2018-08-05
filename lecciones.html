@@ -798,10 +798,14 @@
         </nav>
 		
 				
-	<audio controls>
+	<!-- <audio controls>
   <source id="audio" src="#"  type="audio/mpeg">
 Your browser does not support the audio element.
-</audio>
+</audio> -->
+        <audio controls id="playMusic">
+            <source id="music" src="#" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
 	
 	
 	</div>
@@ -813,10 +817,14 @@ Your browser does not support the audio element.
         </span>
     <span id="contMetronomo" class="metroCont">
     
-        <h1>40 bpm</h1>
+        <!-- <h1>40 bpm</h1>
         <input type="range" min="40" max="218" value="40" id="bpm">
         <audio src="2.wav"></audio>
-        <button id="play">Play</button>
+        <button id="play">Play</button> -->
+        <h1 id="bpm">40 bpm</h1>
+        <input type="range" min="40" max="218" value="40" id="rangeBPM">
+        <audio src="assets/media/audio/2.wav" id="audioMetro"></audio>
+        <button id="Play">Play</button>
 
     <!-- <script src="/infcthng/assets/js/other.js"></script> -->
     </span>
@@ -880,13 +888,16 @@ Your browser does not support the audio element.
     </span>
     <!-- <script type="text/javascript" src="assets/js/scripts.min.js"></script> -->
     <br><br><br><br><br><br><br>
+    <!-- <script src="assets/js/metronome.js"></script> -->
 </body>
 
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/other.js"></script>
-<script src="assets/js/other2.js"></script>
-<script src="assets/js/other3.js"></script>
-<script src="assets/js/other4.js"></script>
+<script src="assets/js/query/jquery-3.2.1.min.js"></script>
+<script src="assets/js/query/other.js"></script>
+<script src="assets/js/query/other2.js"></script>
+<script src="assets/js/query/other3.js"></script>
+<script src="assets/js/query/other4.js"></script>
+<script src="assets/js/hide.js"></script>
 <script src="assets/js/scripts.min.js"></script>
+<script src="assets/js/metronomo.js"></script>
 
 </html>

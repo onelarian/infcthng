@@ -120,8 +120,12 @@
 				</ul>
         </nav>
 			
-        <audio controls>
+        <!-- <audio controls>
             <source id="audio" src="#" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio> -->
+        <audio controls id="playMusic">
+            <source id="music" src="#" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
@@ -133,11 +137,15 @@
             <button onclick="hidePiano()"><img height="50px" width="50px" src="assets/css/icons/piano-icon.png"></button>
         </span>
     <span id="contMetronomo" class="metroCont">
-    
-        <h1>40 bpm</h1>
+        <!-- <h1>40 bpm</h1>
         <input type="range" min="40" max="218" value="40" id="bpm">
-        <audio src="2.wav"></audio>
-        <button id="play">Play</button>
+        <audio src="assets/media/audio/2.wav" id="metro"></audio>
+        <button id="play">Play</button> -->
+        <h1 id="bpm">40 bpm</h1>
+        <input type="range" min="40" max="218" value="40" id="rangeBPM">
+        <audio src="assets/media/audio/2.wav" id="audioMetro"></audio>
+        <button id="Play">Play</button>
+        
 
     <!-- <script src="/infcthng/assets/js/other.js"></script> -->
     </span>
@@ -203,8 +211,10 @@
     <br><br><br><br><br><br><br>
 </body>
 
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/notas.js"></script>
+<script src="assets/js/query/jquery-3.2.1.min.js"></script>
+<script src="assets/js/query/notas.js"></script>
+<script src="assets/js/hide.js"></script>
 <script src="assets/js/scripts.min.js"></script>
+<script src="assets/js/metronomo.js"></script>
 
 </html>
