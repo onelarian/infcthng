@@ -123,7 +123,7 @@ $(document).ready(function(){
 	
 		
 		
-	    $("#entonacion_2_1").on("click", function(){
+	$("#entonacion_2_1").on("click", function(){
         $("#playMusic").attr("src", "sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/01_Entonacion_02.mp3");
     });
     $("#entonacion_2_2").on("click", function(){
@@ -153,25 +153,74 @@ $(document).ready(function(){
     $("#entonacion_2_10").on("click", function(){
         $("#playMusic").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/10_Entonacion_02_b.mp3");
     });
-	    $("#entonacion_2_11").on("click", function(){
+	$("#entonacion_2_11").on("click", function(){
         $("#playMusic").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/11_Entonacion_02_b.mp3");
     });
-		    $("#entonacion_2_12").on("click", function(){
+	$("#entonacion_2_12").on("click", function(){
         $("#playMusic").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/12_Entonacion_02_b.mp3");
     });
-	    $("#entonacion_2_13").on("click", function(){
+	$("#entonacion_2_13").on("click", function(){
         $("#playMusic").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/13_Entonacion_02_c.mp3");
     });
     $("#entonacion_2_14").on("click", function(){
         $("#playMusic").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/14_Entonacion_02_c.mp3");
     });
-	    $("#entonacion_2_15").on("click", function(){
+	$("#entonacion_2_15").on("click", function(){
         $("#playMusic").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/15_Entonacion_02_c.mp3");
     });
-		    $("#entonacion_2_16").on("click", function(){
+	$("#entonacion_2_16").on("click", function(){
         $("#playMusic").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/16_Entonacion_02_c.mp3");
     });
 	
+/*------------------------------------------------------------------------------------------------------*/
+    $("#entonacion_sin_melodia_2_1").on("click", function(){
+        $("#video").attr("src", "sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/01_Entonacion_02.webm");
+    });
+    $("#entonacion_sin_melodia_2_2").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/02_Entonacion_02.webm");
+    });
+    $("#entonacion_sin_melodia_2_3").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/03_Entonacion_02.webm");
+    });
+    $("#entonacion_sin_melodia_2_4").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/04_Entonacion_02.webm");
+    });
+    $("#entonacion_sin_melodia_2_5").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/05_Entonacion_02_a.webm");
+    });
+    $("#entonacion_sin_melodia_2_6").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/06_Entonacion_02_a.webm");
+    });
+    $("#entonacion_sin_melodia_2_7").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/07_Entonacion_02_a.webm");
+    });
+    $("#entonacion_sin_melodia_2_8").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/08_Entonacion_02_a.webm");
+    });
+    $("#entonacion_sin_melodia_2_9").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/09_Entonacion_02_b.webm");
+    });
+    $("#entonacion_sin_melodia_2_10").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/10_Entonacion_02_b.webm");
+    });
+    $("#entonacion_sin_melodia_2_11").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/11_Entonacion_02_b.webm");
+    });
+    $("#entonacion_sin_melodia_2_12").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/12_Entonacion_02_b.webm");
+    });
+    $("#entonacion_sin_melodia_2_13").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/13_Entonacion_02_c.webm");
+    });
+    $("#entonacion_sin_melodia_2_14").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/14_Entonacion_02_c.webm");
+    });
+    $("#entonacion_sin_melodia_2_15").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/15_Entonacion_02_c.webm");
+    });
+    $("#entonacion_sin_melodia_2_16").on("click", function(){
+        $("#video").attr("src","sistema_serna2/SISTEMA SERNA_I/VIDEOS/Nivel_02/Entonacion_02/Pistas sin Melodia/Pistas en Video/16_Entonacion_02_c.webm");
+    }); 
 	
 	
 	

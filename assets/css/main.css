@@ -200,8 +200,9 @@ nav li li{
 }
 
 nav li:hover > ul > li{
-    max-height: 1000px;
+    /*max-height: 50px;*/
     overflow: visible;
+    display: table;
 }
 
 .menu > li > ul{
