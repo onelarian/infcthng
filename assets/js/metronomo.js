@@ -13,7 +13,7 @@ function tick(){
 }
 
 bpm.addEventListener('change', function(){
-    h1.innerHTML = this.value + ' bpm'
+    h1.innerHTML = this.value + ' BPM'
     // console.log(this.value)
     currentBpm = parseInt(this.value)
     if(isPlaying){
@@ -24,10 +24,10 @@ bpm.addEventListener('change', function(){
 
 play.addEventListener('click', function(){
     if(isPlaying){
-        play.innerHTML = 'Play'
+        play.innerHTML = 'PLAY'
         clearInterval(timer)
     }else{
-        play.innerHTML = 'Stop'
+        play.innerHTML = 'STOP'
         tick()
         timer = setInterval(tick, (60*1000)/currentBpm)
     }
